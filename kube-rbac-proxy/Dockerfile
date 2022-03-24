@@ -1,0 +1,2 @@
+FROM quay.io/brancz/kube-rbac-proxy:v0.11.0
+LABEL maintainer="Song Qian<2744588786@qq.com>"
