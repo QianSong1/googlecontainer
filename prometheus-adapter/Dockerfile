@@ -1,0 +1,2 @@
+FROM k8s.gcr.io/prometheus-adapter/prometheus-adapter:v0.9.0
+LABEL maintainer="Song Qian<2744588786@qq.com>"
