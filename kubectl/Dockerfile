@@ -10,7 +10,7 @@ RUN mkdir /opt/tool -p && yum install wget -y && \
 	tar xf kubernetes-server-linux-amd64.tar.gz && \
 	rm kubernetes-server-linux-amd64.tar.gz -rf && \
 	\cp kubernetes/server/bin/kubectl /usr/local/bin/ && \
-	kubectl version && \
+	kubectl -h && \
 	yum clean all && \
  	rm -rf ./*
 
