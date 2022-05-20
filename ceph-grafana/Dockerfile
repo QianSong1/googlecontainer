@@ -1,2 +1,2 @@
-FROM quay.io/prometheus/node-exporter:v0.18.1
+FROM quay.io/ceph/ceph-grafana:6.7.4
 LABEL maintainer="Song Qian<2744588786@qq.com>"
